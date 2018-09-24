@@ -10,6 +10,7 @@ import UIKit
 class RestartViewController: UIViewController {
     @IBAction func restartButton(_ sender: UIButton) {
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

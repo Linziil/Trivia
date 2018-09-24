@@ -7,16 +7,8 @@
 //
 
 import UIKit
-
+// HeaderView is a subView of QuestionTableViewController
+// HeaderView is linked to HeaderView.xib
 class HeaderView: UITableViewHeaderFooterView {
-
     @IBOutlet weak var questionLabel: UILabel!
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
 }
